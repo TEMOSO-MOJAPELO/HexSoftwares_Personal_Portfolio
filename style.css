@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: poppins;
+    
+}
+
+body {
+  background-color: black;  
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+   padding-right: 15px;
+   padding-left: 15px; 
+}
+
+.logo a {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: orange;
+}
+
+.main {
+    color: white;
+    align-items: center;
+
+}
+
+table {
+   
+   width: 80%;
+   height: 600px;
+    
+}
+
+button .seemore {
+    color: white;
+}
+
+button:hover {
+    background-color: orange;
+    
+}
+
+.bio {
+    margin: 0;
+    width: 100vw;
+    height: max-content;
+    color: black;
+    background-color: white;
+    align-items: center;
+    
+    
+}
+
+.bio p {
+    align-items: right;
+    margin: 5px;
+    margin-right: 120px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 120px;
+    
+
+}
+
+.skills {
+    margin: 0;
+    width: 100vw;
+    height: max-content;
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+
+.experience {
+    margin: 0;
+    width: 100vw;
+    height: max-content;
+    color: black;
+    background-color: white;
+    
+}
+
+.expContent {
+    
+    display: flex;
+    
+    
+}
+
+.expContent .experOne {
+    margin-right: 360px;
+    margin-bottom: 80px;
+}
+
+.contact {
+    margin: 0;
+    width: 100vw;
+    height: max-content;
+    color: white;
+    background-color: black;
+    
+}
+
+.contact ul li {
+    list-style: none;
+}
